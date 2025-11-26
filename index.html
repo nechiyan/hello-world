@@ -9,7 +9,95 @@
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
   </head>
   <body>
-    
+    <section class="relative overflow-hidden">
+      <!-- HERO + STATS LEFT AREA -->
+      <div class="container pl-[118px] relative z-10">
+        <!-- HEADER -->
+        <header class="py-8">
+          <nav class="flex justify-between items-center mx-auto">
+            <div class="flex items-center justify-between w-[68%]">
+              <div class="flex items-center justify-between gap-2">
+                <div class="w-20 h-20">
+                  <img
+                    src="/images/Logo.svg"
+                    class="w-full h-full object-contain"
+                  />
+                </div>
+                <span class="text-xl font-bold">Hello World!</span>
+              </div>
+
+              <div
+                class="hidden lg:flex items-center gap-[64px] text-[24px] pr-[90px] text-[#838383]"
+              >
+                <a href="#" class="hover:text-custom-orange">Course</a>
+                <a href="#" class="hover:text-custom-orange">Info</a>
+                <a href="#" class="hover:text-custom-orange">Testimonial</a>
+                <a href="#" class="hover:text-custom-orange">Categories</a>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+        <!-- HERO -->
+        <main class="gap-8 items-center pb-[100px] pt-[77px]">
+          <!-- LEFT CONTENT -->
+          <div class="space-y-8">
+            <h1
+              class="text-[64px] max-md:text-6xl font-bold leading-tight flex items-end gap-4"
+            >
+              LEARN GRAPHICS <br />
+              DESIGN FOR LIFE
+              <span
+                class="bg-primary w-12 h-12 rounded-full flex items-center justify-center"
+              >
+                <div class="w-12 h-12 object-contain p-2">
+                  <img src="/images/Icon.svg" alt="" />
+                </div>
+              </span>
+            </h1>
+
+            <p class="text-gray-600 max-w-[35rem]">
+              Stay Informed, Stay Ahead: Unveiling the Future of Technology,
+              Gadgets, and Innovation <br />
+              Your Gateway to the Digital Universe - Where Innovation Meets
+              Insight
+            </p>
+
+            <!-- Stats + Avatars -->
+            <div class="flex items-center gap-4">
+              <div>
+                <p class="text-3xl font-bold">5.1 K</p>
+                <p class="text-gray-600">
+                  Students <br />
+                  Worldwide
+                </p>
+              </div>
+
+              <div class="flex items-center">
+                <div class="w-40 object-contain p-2">
+                  <img src="/images/Group 1171276108.svg" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="flex items-center gap-6 pt-4">
+              <button class="bg-custom-green text-white py-4 px-8 rounded-full">
+                Book Your Seat
+              </button>
+              <button class="flex items-center gap-3">
+                <div class="w-16 h-16 object-contain p-2">
+                  <img src="/images/Vector.svg" alt="" />
+                </div>
+                <span class="font-medium text-gray-700">See Journey</span>
+              </button>
+            </div>
+          </div>
+        </main>
+
+        <!-- STATS SECTION (NOW CORRECTLY PART OF HERO) -->
+      </div>
+    </section>
     <section class="px-[100px] py-[43px] bg-[#FF9257] text-white w-[100%]">
       <div class="flex items-center justify-start gap-10">
         <div>
